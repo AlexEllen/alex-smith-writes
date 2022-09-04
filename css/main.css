@@ -1,0 +1,238 @@
+/**go here for code shttps://github.com/skillcrush/101-jubilee_austen/commit/9e0b992c9689755a4bcab1f2eb7139604b02afba# ***/
+/***BASE STYLES***/
+body {
+    font-family:'Source Sans pro', sans-serif;
+    color: #2b2b2b;
+}
+/***GRID***/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow:auto;
+}
+.half-width{
+    width: 600px;
+    float:left;
+
+}
+.third-width{
+    width:400px;
+    float:left;
+}
+.third-width{
+    width:400px;
+    float:left;
+}
+l {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+li {
+    display:inline-block;
+    margin-right: 1px;
+}
+/****HEADER****/
+header {
+    height: 800px;
+    background: url('../img/full-background.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+header h1{
+    padding:65px 0 65px 25px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color:#0492c2;
+
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #1f456e;
+    padding-left: 80px;
+}
+header h2 {
+    width: 800px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 62px;
+    line-height: 80px;
+    color: #1f456e;
+    padding: 20px 0px 20px 25px;
+}
+header h2 span {
+    color: #59788e;
+}
+/***recipe**/
+#recipe .full-width{
+   background: #f2f1f1;
+   
+}
+#recipe h1{
+    font-family: 'Lora', serif;
+    font-size: 36pt;
+    padding-left: 50px;
+    color:#5896ab;
+    }
+#recipe p{
+    color: #2e2d2d;
+    font-family: 'Lora', bold;
+    font-size: 16px;
+    line-height:40px;
+    padding-left:50px;
+    padding-right:50px;
+    
+}
+#silences .full-width{
+background:#ebebeb;
+margin: 50px;
+padding: 80px;
+}
+#silences p{
+    color: #2e2d2d;
+    font-family: 'Lora', bold;
+    font-size: 16px;
+    line-height:40px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+/***ABOUT***/
+#about .full-width{
+    padding: 80px 0;
+}
+#about h2{
+    font-family: 'Lora', serif;
+    font-size: 36pt;
+    padding-left: 50px;
+    }
+#about p{
+    color: #7f7f7f;
+    font-family: 'Lora', bold;
+    font-size: 21px;
+    line-height:40px;
+    padding-left:50px;
+    padding-right:50px;
+    
+}
+/***WORK***/
+#work{
+    background:#59bfff;
+    text-align: center;
+}
+#work .full-width {
+    padding: 115px 0;
+}
+ 
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size:23px;
+    line-height:  32px;
+    margin: 0 auto;
+    width:190px;
+   
+}
+ 
+#work p {
+    font-family:'Lora', serif; 
+    font-size:18px;
+    line-height: 30px;
+    padding: 50px;
+}
+
+#samplesilences{
+    background:#59bfff;
+    text-align: centre;
+    }
+#samplesilences .full-width {
+    padding: 115px 0;
+    
+}
+ 
+
+
+#samplesilences h3 {
+    font-size:23px;
+    line-height:  32px;
+    margin: 0 auto;
+    width:190px;
+   
+}
+ 
+#samplesilences p {
+    font-family:'Lora', serif; 
+    font-size:18px;
+    line-height: 30px;
+    padding: 50px;
+    margin: 40px;
+    
+}
+
+/****CONTACT****/
+#contact{
+    background:#ebebeb;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact img#contact-img {
+    border: 10px solid #ffffff;
+    margin-left: 25px;
+    width:600px;
+    
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora',serif;
+    font-size: 36px;
+    line-height:44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height:44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: ;
+    font-size: ;
+    line-height:;
+    margin: 40px 0 0 0;
+}
+#contact a {
+        color:#1f456e;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
